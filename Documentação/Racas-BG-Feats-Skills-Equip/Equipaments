@@ -1,199 +1,128 @@
-# Catálogo de Equipamentos, Serviços e Criação de Personagem (Shadowrun 5e / D&D 5e 2024)
+# Catálogo de Equipamentos, Serviços e Maestria em Armas (Shadowrun / D&D 5e 2024)
 
-No cenário de Shadowrun, o dinheiro das ruas é o **Nuyen (N$)**. Um Nuyen é aproximadamente equivalente a 1 Peça de Ouro (1 PO) nas regras padrão do D&D 5e para fins de conversão econômica.
+No cenário de Shadowrun, o dinheiro das ruas é o **Nuyen (N$)**. Para fins de conversão econômica e balanceamento com o D&D 5e (2024), **1 Nuyen (N$) é equivalente a 1 Peça de Ouro (PO)**.
 
 ---
 
-## 1. Tabelas de Equipamentos
+## 1. Regra Especial: Maestria em Armas (Weapon Mastery)
 
-### Tabela 1: Armaduras e Proteções
+Seguindo as regras de D&D 5e (2024), as armas em Shadowrun possuem uma **Propriedade de Maestria**.
 
-| Item | Tipo / Equivalente D&D | Classe de Armadura (CA) | Propriedades / Requisitos | Custo (N$) |
+**Para utilizar essa propriedade, você deve ter um recurso de classe (como o *Estilo de Combate* do Street Samurai ou o *Golpe Potenciado* do Adepto Físico) que explicitamente lhe conceda acesso à Maestria de uma ou mais armas específicas.**
+
+Se você tem a proficiência, mas não a Maestria, você usa a arma normalmente, mas não pode ativar o efeito especial de Maestria.
+
+### Propriedades de Maestria Contextualizadas
+
+1.  **Agressivo (Cleave):** *(Exclusivo Corpo a Corpo)*. Seus golpes são tão brutais que o dano transborda. Quando você atinge uma criatura com um ataque corpo a corpo, se houver outra criatura a até 1,5m do alvo original e dentro do seu alcance, você pode causar dano à segunda criatura igual ao dado de dano da arma (sem modificadores de atributo).
+2.  **Desequilibrar (Topple):** *(Corpo a Corpo ou Fuzis Pesados)*. O impacto é projetado para derrubar o alvo. Quando você atinge uma criatura, você pode forçá-la a fazer um teste de resistência de **Constituição** (CD = 8 + Proficiência + Atributo de Ataque). Se falhar, o alvo fica **Caído** (Prone).
+3.  **Empurrar (Push):** O impacto força o recuo do alvo. Quando você atinge uma criatura (corpo a corpo até tamanho Grande, à distância até tamanho Médio), você pode empurrá-la 3 metros para longe de você em linha reta.
+4.  **Fustigar (Graze):** *(Exclusivo Armas de Fogo)*. Mesmo o quase acerto causa dano devido a estilhaços ou impacto na armadura. Quando você erra um ataque com esta arma, você causa dano ao alvo igual ao seu modificador de **Destreza**. Este dano não pode ser aumentado por nenhum outro efeito.
+5.  **Lento (Slow):** *(Exclusivo Armas de Fogo)*. O projetil ou efeito da arma (como choque) atordoa momentaneamente. Quando você atinge uma criatura e causa dano, o deslocamento dela é reduzido em 3 metros até o início do seu próximo turno.
+6.  **Retaliação (Nick):** *(Exclusivo Corpo a Corpo/Pistolas Leves)*. A arma é tão leve e rápida que permite ataques bônus mais fáceis. Se você estiver empunhando duas armas com a propriedade Retaliação, você pode fazer o ataque com a ação bônus mesmo que as armas não sejam leves, e você adiciona seu modificador de atributo ao dano desse ataque bônus.
+7.  **Vantagem (Vex):** O ataque abre uma brecha na defesa do alvo. Quando você atinge uma criatura e causa dano, você ganha **Vantagem** na sua próxima jogada de ataque contra essa mesma criatura até o final do seu próximo turno.
+
+---
+
+## 2. Tabelas de Armas com Maestria
+
+### Tabela 1: Armas Brancas (Corpo a Corpo)
+
+| Arma | Dano | Propriedades | Maestria | Custo (N$) |
+| :--- | :--- | :--- | :---: | :---: |
+| **Faca Monomolecular** | 1d4 Cort/Perf | Leve, Acuidade, Arremesso (6m/18m) | **Retaliação (Nick)** | 100 N$ |
+| **Soco Inglês de Titânio**| 1d4 Concussão | Leve (Usa regra de ataque desarmado) | **—** | 50 N$ |
+| **Bastão de Choque** | 1d6 Conc + 1d4 Elet | Acuidade, Bateria recarregável | **Lento (Slow)** | 250 N$ |
+| **Espada Curta/Wakisashi** | 1d6 Cortante | Leve, Acuidade | **Vantagem (Vex)** | 250 N$ |
+| **Katana Monomolecular** | 1d8 Cortante | Acuidade, Versátil (1d10) | **Vantagem (Vex)** | 500 N$ |
+| **Machado de Batalha Urban**| 1d8 Cortante | Versátil (1d10) | **Agressivo (Cleave)**| 300 N$ |
+| **Lâminas Retráteis (Spurs)**| 1d8 Cort/Perf | Implante (Ciberware), Acuidade | **Retaliação (Nick)** | *(Ver Ciberware)* |
+
+### Tabela 2: Armas de Fogo (À Distância)
+
+**Nota sobre Munição:** Armas de fogo exigem pentes de munição compatíveis (Pistola, Fuzil ou Escopeta).
+
+| Arma | Dano | Alcance (Normal/Longo) | Pente | Propriedades | Maestria | Custo (N$) |
+| :--- | :--- | :---: | :---: | :--- | :---: | :---: |
+| **Pistola Leve** | 1d6 Perf | 12m / 36m | 12 | SA, Leve | **Retaliação (Nick)** | 350 N$ |
+| **Pistola Pesada** | 1d8 Perf | 18m / 54m | 10 | SA, RC | **Vantagem (Vex)** | 750 N$ |
+| **Submetralhadora** | 2d4 Perf | 15m / 45m | 30 | SA, RC, AUTO | **Fustigar (Graze)** | 1.000 N$ |
+| **Escopeta de Combate**| 2d6 Perf | 9m / 27m | 8 | SA, Pesada, Recarga (2) | **Empurrar (Push)** | 900 N$ |
+| **Fuzil de Assalto** | 2d8 Perf | 24m / 72m | 30 | SA, RC, AUTO, 2 Mãos, Pesada| **Fustigar (Graze)** | 2.500 N$ |
+| **Fuzil de Precisão** | 2d10 Perf| 45m / 135m | 5 | SA, 2 Mãos, Pesada | **Desequilibrar (Topple)**| 4.000 N$ |
+
+**Legenda de Propriedades de Armas de Fogo:**
+*   **SA (Semiautomática):** Um disparo por ataque normal.
+*   **RC (Rajada Curta):** Compatível com a ação *Rajada Concentrada* (Regras de Combate).
+*   **AUTO (Automática):** Compatível com *Rajada Concentrada* e *Varredura Automática*.
+*   **Recarga (X):** Quantidade de ações de ataque necessárias para recarregar o pente totalmente.
+
+---
+
+## 3. Tabelas de Armaduras e Proteções
+
+| Item | Tipo / Equivalente | Classe de Armadura (CA) | Propriedades / Requisitos | Custo (N$) |
 | :--- | :--- | :---: | :--- | :---: |
-| **Jaqueta de Couro da Gangue** | Armadura Leve (*Leather*) | 11 + Mod. Des | Leve, Discreta | 100 N$ |
-| **Couraça de Couro Urbano** | Armadura Leve (*Studded Leather*) | 12 + Mod. Des | Leve, Reforçada | 450 N$ |
-| **Sobretudo Kevlar Reforçado** | Armadura Média (*Hide*) | 12 + Mod. Des (Máx +2) | Furtividade com Desvantagem | 200 N$ |
-| **Jaqueta de Kevlar Corporativa** | Armadura Média (*Scale Mail*) | 14 + Mod. Des (Máx +2) | Furtividade com Desvantagem | 500 N$ |
-| **Terno Tático de Fibra** | Armadura Média (*Breastplate*) | 14 + Mod. Des (Máx +2) | Não impõe Desvantagem, Ocultável | 4.000 N$ |
-| **Colete de Combate Pesado** | Armadura Média (*Half Plate*) | 15 + Mod. Des (Máx +2) | Furtividade com Desvantagem | 7.500 N$ |
-| **Armadura de Segurança Militar** | Armadura Pesada (*Ring Mail*) | 14 | Força 11, Furtividade Desvantagem | 300 N$ |
-| **Couraça de Ligas de Titânio** | Armadura Pesada (*Chain Mail*) | 16 | Força 13, Furtividade Desvantagem | 750 N$ |
-| **Traje Avançado da SWAT/Ares** | Armadura Pesada (*Plate Mail*) | 18 | Força 15, Furtividade Desvantagem | 15.000 N$ |
+| **Jaqueta de Couro da Gangue**| Leve (*Leather*) | 11 + Mod. Des | Discreta | 100 N$ |
+| **Couraça de Couro Urbano** | Leve (*Studded Leather*) | 12 + Mod. Des | Reforçada | 450 N$ |
+| **Sobretudo Kevlar** | Média (*Hide*) | 12 + Mod. Des (Máx +2) | Furtividade Desvantagem | 200 N$ |
+| **Jaqueta de Kevlar Corp.** | Média (*Scale Mail*) | 14 + Mod. Des (Máx +2) | Furtividade Desvantagem | 500 N$ |
+| **Terno Tático de Fibra** | Média (*Breastplate*) | 14 + Mod. Des (Máx +2) | Ocultável | 4.000 N$ |
+| **Colete de Combate Pesado** | Média (*Half Plate*) | 15 + Mod. Des (Máx +2) | Furtividade Desvantagem | 7.500 N$ |
+| **Armadura de Seg. Militar** | Pesada (*Ring Mail*) | 14 | For 11, Furtividade Desv. | 300 N$ |
+| **Couraça de Ligas de Titânio**| Pesada (*Chain Mail*) | 16 | For 13, Furtividade Desv. | 750 N$ |
+| **Traje Avançado SWAT/Ares** | Pesada (*Plate Mail*) | 18 | For 15, Furtividade Desv. | 15.000 N$ |
 | **Escudo Balístico Tático** | Escudo | +2 CA | Exige uso de 1 mão | 100 N$ |
 
 ---
 
-### Tabela 2: Armas (Brancas e Armas de Fogo)
-
-| Arma | Dano | Propriedades / Alcance | Custo (N$) |
-| :--- | :--- | :--- | :---: |
-| **Faca Monomolecular** | 1d4 Cortante / Perfurante | Leve, Acuidade, Arremesso (alcance 6m/18m) | 100 N$ |
-| **Bastão de Choque Elétrico** | 1d6 Concussão + 1d4 Eletricidade | Acuidade, Recarga de Bateria | 250 N$ |
-| **Katana Monomolecular** | 1d8 Cortante | Acuidade, Versátil (1d10) | 500 N$ |
-| **Pistola Leve (Ares Light)** | 1d6 Perfurante | Munição (alcance 12m/36m), Leve, Pente (12 tiros) | 350 N$ |
-| **Pistola Pesada (Ares Predator)**| 1d8 Perfurante | Munição (alcance 18m/54m), Pente (10 tiros) | 750 N$ |
-| **Submetralhadora (Ingram MAC-10)**| 2d4 Perfurante | Munição (alcance 15m/45m), Modos: Único / Rajada, Pente (30 tiros) | 1.000 N$ |
-| **Escopeta de Combate (Remington)**| 2d6 Perfurante | Munição (alcance 9m/27m), Pesada, Pente (8 cartuchos) | 900 N$ |
-| **Fuzil de Assalto (Ares Alpha)** | 2d8 Perfurante | Munição (alcance 24m/72m), Pesada, Duas Mãos, Rajada / Supressão | 2.500 N$ |
-| **Fuzil de Precisão (Sniper)** | 2d10 Perfurante | Munição (alcance 45m/135m), Pesada, Duas Mãos | 4.000 N$ |
-
----
-
-### Tabela 3: Equipamentos, Dispositivos e Kits
+## 4. Dispositivos, Kits e Munições
 
 | Item / Kit | Peso | Descrição Resumida | Custo (N$) |
 | :--- | :---: | :--- | :---: |
-| **Commlink Básico (Transceptor)** | 0,2 kg | Smartphone neural básico, chamadas, acesso AR básico | 100 N$ |
-| **Commlink Militar Criptografado** | 0,5 kg | Criptografia militar de nível 3, imune a escutas comuns | 1.500 N$ |
-| **Óculos HUD de Realidade Aumentada** | 0,3 kg | Interface AR, integração de sensores, visão noturna | 500 N$ |
-| **Cyberdeck Operacional (Nível 1)** | 1,5 kg | Terminal para Deckers executarem Hacks e Programas | 3.000 N$ |
-| **Kit de Ferramentas de Hacker** | 2,0 kg | Cabos de invasão física, adaptadores biométricos | 500 N$ |
-| **Kit de Manutenção de Armas** | 1,0 kg | Óleos, peças de reposição e limpadores de cano | 200 N$ |
-| **Kit de Trauma / Medicina** | 1,5 kg | Coagulantes sintéticos, anestésicos, selos de tórax (10 usos) | 300 N$ |
-| **Kit de Disfarce Biométrico** | 2,5 kg | Próteses de silicone, lentes de contato com padrões de íris | 500 N$ |
-| **Kit de Falsificação de Dados** | 1,5 kg | Chips gravadores de ID falsa e passe de segurança | 450 N$ |
-| **GPS Tático Offline / Bússola** | 0,5 kg | Mapeamento sem depender de rede wireless | 150 N$ |
+| **Commlink Básico** | 0,2 kg | Smartphone neural básico, acesso AR básico | 100 N$ |
+| **Commlink Militar Cripto.** | 0,5 kg | Criptografia Nível 3, imune a escutas comuns | 1.500 N$ |
+| **Óculos HUD de Realidade Aumentada**| 0,3 kg | Interface AR, integração de sensores, visão noturna | 500 N$ |
+| **Cyberdeck Operacional (Nível 1)**| 1,5 kg | Necessário para Deckers executarem Hacks/Programas | 3.000 N$ |
+| **Kit de Ferramentas de Hacker**| 2,0 kg | Cabos de invasão física, adaptadores biométricos | 500 N$ |
+| **Kit de Manutenção de Armas** | 1,0 kg | Óleos, peças e limpadores | 200 N$ |
+| **Kit de Trauma / Medicina** | 1,5 kg | Coagulantes, anestésicos, selos de tórax (10 usos) | 300 N$ |
+| **Kit de Disfarce Biométrico** | 2,5 kg | Próteses de silicone, lentes de contato com íris | 500 N$ |
 | **Drone de Reconhecimento Micro** | 0,5 kg | Quadricóptero de vigilância com câmera AR HD | 1.000 N$ |
-| **Pente de Munição Adicional** | 0,3 kg | Carga completa para Pistolas ou Fuzis | 25 N$ |
+| **Pente de Munição (Pistola/Fuzil)** | 0,3 kg | Carga completa para 1 pente da arma | 25 N$ |
+| **Caixa de Munição (Escopeta)** | 1,0 kg | 20 cartuchos de escopeta | 50 N$ |
 
 ---
 
-## 2. Descrição Detalhada dos Equipamentos e Kits
-
-### Armadura e Proteções
-* **Terno Tático de Fibra:** Construído com microfibras de Kevlar e cerâmica trançada sob encomenda. Utilizado por executivos e *Faces* de elite. Garante excelente proteção mecânica sem chamar a atenção em reuniões de alto nível.
-* **Traje Avançado da SWAT/Ares:** Armadura militar selada de corpo inteiro com absorção de impacto balístico, visor de Realidade Aumentada integrado e filtros contra gases tóxicos.
-
-### Armas
-* **Katana Monomolecular:** Lâmina de liga metálica ultra-densa cujo fio possui a espessura de poucas moléculas. Corta através de armaduras corporativas com facilidade quase cirúrgica.
-* **Pistola Pesada (Ares Predator):** A arma mais icônica das ruas. Robusta, confiável, com alto poder de parada e interface direta para sistemas de mira Smartlink.
-* **Fuzil de Assalto (Ares Alpha):** O padrão da indústria para corporações e mercenários. Possui seletor de tiro para disparos únicos, rajadas curtas ou supressão contínua de área.
-
-### Dispositivos e Kits
-* **Cyberdeck Operacional:** O computador de pulso/tiracolo de alto desempenho necessário para que o *Decker* projete sua mente na Matrix e injete código nocivo em sistemas e inimigos.
-* **Commlink Criptografado:** Transceptor portátil com canal de voz/dados fechado por algoritmos quânticos. Essencial para que a equipe de Shadowrunners se comunique sem ser grampeada pela polícia corporativa (Lone Star/Knight Errant).
-* **Kit de Trauma / Medicina:** Contém injetores de adrenalina, grampos cirúrgicos de titanio e géis de coagulação imediata para manter Runners vivos em tiroteios.
-* **Kit de Disfarce Biométrico:** Inclui pele sintética spray, modificadores de voz temporários e cartões de clonagem de DNA/impressão digital para contornar verificações de segurança.
-
----
-
-## 3. Tabela de Serviços e Estilos de Vida
-
-Nas megacidades, ter onde dormir, comer e manter os equipamentos exige um pagamento mensal de estilo de vida.
-
-### Tabela 4: Estilos de Vida Mensais
+## 5. Tabela de Serviços e Estilos de Vida
 
 | Estilo de Vida | Custo Mensal (N$) | Condições de Vida e Recuperação |
 | :--- | :---: | :--- |
-| **Sarcófago / Sarjeta** | 100 N$ | Dorme em cápsulas de motel sarcófago ou becos. Recuperação de vida e descansos com Desvantagem. |
-| **Subúrbio Baixo (Squatter)** | 500 N$ | Quarto em cortiço caindo aos pedaços, comida sintética de segunda. Recuperação normal. |
-| **Classe Média Urbana** | 2.000 N$ | Apartamento seguro com criptografia básica, comida real ocasional, garagem para 1 veículo. |
-| **Executivo / Confortável** | 5.000 N$ | Condomínio fechado com segurança privada 24h, comida orgânica fresca, suporte de rede dedicado. |
-| **Luxo Corporativo** | 20.000 N$+ | Cobertura nos melhores bairros, serviçais cibernéticos, segurança da Ares de prontidão. |
-
----
-
-### Tabela 5: Serviços das Ruas e Mercado Negro
+| **Sarcófago / Sarjeta** | 100 N$ | Cápsulas de motel sarcófago ou becos. Descansos com Desvantagem.|
+| **Subúrbio Baixo (Squatter)** | 500 N$ | Quarto em cortiço caindo aos pedaços, comida sintética. Recuperação normal. |
+| **Classe Média Urbana** | 2.000 N$ | Apartamento seguro, cripto. básica, comida real ocasional, garagem. |
+| **Executivo / Confortável** | 5.000 N$ | Condomínio fechado, segurança 24h, comida orgânica, rede dedicada. |
 
 | Serviço Clandestino | Descrição | Custo (N$) |
 | :--- | :--- | :---: |
-| **Médico de Sarjeta (Street Doc)** | Tratamento de urgência, remoção de projéteis e suturas clandestinas | 250 N$ / sessão |
-| **Cirurgia de Instalação de Ciberware** | Instalação cirúrgica de implantes de cromo no corpo | 1.000 N$ a 5.000 N$ |
-| **Identidade Falsa de Nível 3 (SIN Falsa)** | Registro civil e bancário falso para passar em escâneres comuns | 2.500 N$ |
-| **Passe de Acesso Corporativo Temporário** | Crachá clonado de funcionário válido por 12 horas | 1.000 N$ |
-| **Consulta com Fixer (Informante)** | Dica ou localização de um alvo na cidade | 200 N$ a 1.000 N$ |
-| **Reboque / Manutenção de Veículo** | Conserto de avarias pesadas em carros ou drones | 500 N$ |
-| **Aluguel de Esconderijo Seguro (Safehouse)** | Quarto blindado sem registros por 24 horas | 300 N$ / dia |
+| **Médico de Sarjeta (Street Doc)** | Tratamento de urgência e suturas clandestinas | 250 N$ / sessão |
+| **Identidade Falsa Nível 3 (SIN Falsa)**| Registro civil/bancário falso para passar em escâneres comuns | 2.500 N$ |
+| **Aluguel de Esconderijo (Safehouse)**| Quarto blindado sem registros por 24 horas | 300 N$ / dia |
 
 ---
 
-## 4. Variação de Criação de Personagem: Compra de Equipamento Inicial por Orçamento
+## 6. Criação de Personagem: Compra de Equipamento Inicial (Variação)
 
-Em vez de usar o equipamento padrão fixo da classe, você pode optar pela **Regra de Orçamento Inicial de Nuyen**. Cada jogador recebe uma quantia inicial de N$ de acordo com o seu Arquétipo escolhido no 1º nível para comprar armaduras, armas, dispositivos, kits e pagar seu 1º mês de estilo de vida.
+Em vez de usar o equipamento padrão fixo da classe, você pode optar pelo **Orçamento Inicial de Nuyen**. Cada jogador recebe uma quantia de N$ de acordo com o seu Arquétipo escolhido no 1º nível. Com este valor, você deve comprar suas armas (lembrando de verificar as **Propriedades de Maestria** que sua classe lhe permite usar), armaduras, kits e pagar seu **primeiro mês de Estilo de Vida**.
 
-* **Dinheiro Sobrando:** Qualquer Nuyen não gasto na criação de personagem fica na conta bancária/credencial do personagem como saldo inicial.
-
----
+Qualquer Nuyen não gasto fica na credencial do personagem como saldo inicial.
 
 ### Orçamentos Iniciais por Arquétipo
 
-#### 1. Street Samurai (Orçamento: 12.000 N$)
-*Foco em armamento pesado, lâminas de corte molecular e armadura reforçada.*
-* **Exemplo de Compra:**
-  * Jaqueta de Kevlar Corporativa (500 N$)
-  * Katana Monomolecular (500 N$)
-  * Fuzil de Assalto Ares Alpha (2.500 N$) + 4 Pentes adicionais (100 N$)
-  * Pistola Pesada Ares Predator (750 N$) + 2 Pentes adicionais (50 N$)
-  * Kit de Manutenção de Armas (200 N$)
-  * Commlink Básico (100 N$)
-  * 1º Mês de Estilo de Vida Subúrbio Baixo (500 N$)
-  * *Instalação / Fundo para Ciberware inicial:* 6.300 N$ em reservas.
-
-#### 2. Decker (Orçamento: 10.000 N$)
-*Foco em terminal Cyberdeck, softwares e ferramentas eletrônicas.*
-* **Exemplo de Compra:**
-  * Cyberdeck Operacional Nível 1 (3.000 N$)
-  * Kit de Ferramentas de Hacker (500 N$)
-  * Couraça de Couro Urbano (450 N$)
-  * Submetralhadora Ingram MAC-10 (1.000 N$) + 3 Pentes adicionais (75 N$)
-  * Óculos HUD de AR (500 N$)
-  * Commlink Militar Criptografado (1.500 N$)
-  * 1º Mês de Estilo de Vida Classe Média Urbana (2.000 N$)
-  * *Saldo restante:* 975 N$.
-
-#### 3. Rigger (Orçamento: 12.000 N$)
-*Foco em aquisição de drones, ferramentas de mecânico e manutenção de veículos.*
-* **Exemplo de Compra:**
-  * Companion Drone Aéreo ou Terrestre Inicial (Incluso pela classe - 0 N$)
-  * Drone de Reconhecimento Micro Adicional (1.000 N$)
-  * Couraça de Couro Urbano (450 N$)
-  * Pistola Pesada (750 N$) + 2 Pentes adicionais (50 N$)
-  * Ferramentas de Funileiro / Mecânico (200 N$)
-  * Commlink Básico (100 N$)
-  * GPS Tático Offline (150 N$)
-  * 1º Mês de Estilo de Vida Classe Média com Garagem (2.000 N$)
-  * *Reserva para Peças e Upgrades de Drones:* 7.300 N$.
-
-#### 4. Adept (Adepto Físico) (Orçamento: 6.000 N$)
-*Foco em armas de corte manual, mobilidade e pistolas (não utiliza ciberware nem decks).*
-* **Exemplo de Compra:**
-  * Katana Monomolecular (500 N$)
-  * Duas Facas Monomoleculares (200 N$)
-  * Pistola Pesada Ares Predator (750 N$) + 4 Pentes adicionais (100 N$)
-  * Óculos HUD de AR (500 N$)
-  * Commlink Básico (100 N$)
-  * Kit de Trauma / Medicina (300 N$)
-  * 1º Mês de Estilo de Vida Subúrbio Baixo (500 N$)
-  * *Saldo restante:* 3.050 N$.
-
-#### 5. Mago / Xamã (Conjurador de Mana) (Orçamento: 6.000 N$)
-*Foco em fetiches arcanos, kits de alquimia/ervas e suporte pessoal.*
-* **Exemplo de Compra:**
-  * Foco Arcano / Fetiche Totêmico de Mana (250 N$)
-  * Pistola Leve (350 N$) + 2 Pentes adicionais (50 N$)
-  * Kit de Ervas / Alquimia Astral (200 N$)
-  * Commlink Básico (100 N$)
-  * 1º Mês de Estilo de Vida Subúrbio Baixo (500 N$)
-  * Identidade Falsa de Nível 3 / SIN Falsa (2.500 N$)
-  * *Saldo restante:* 2.050 N$.
-
-#### 6. Face (O Negociador) (Orçamento: 10.000 N$)
-*Foco em trajes de grife, identidades falsas, veículos e contatos sociais.*
-* **Exemplo de Compra:**
-  * Terno Tático de Fibra (4.000 N$)
-  * Pistola Pesada Ares Predator (750 N$)
-  * Kit de Disfarce Biométrico (500 N$)
-  * Kit de Falsificação de Dados (450 N$)
-  * Commlink Militar Criptografado (1.500 N$)
-  * 1º Mês de Estilo de Vida Classe Média Urbana (2.000 N$)
-  * *Saldo restante:* 800 N$.
-
-#### 7. Technomancer (Tecnomante) (Orçamento: 5.000 N$)
-*Não precisa de Cyberdeck nem de hardwares caros; gasta com manutenção de vida e disfarces.*
-* **Exemplo de Compra:**
-  * Couraça de Couro Urbano (450 N$)
-  * Submetralhadora Ingram MAC-10 (1.000 N$) + 2 Pentes adicionais (50 N$)
-  * Commlink Básico descartável para disfarce (100 N$)
-  * Kit de Trauma / Medicina (300 N$)
-  * 1º Mês de Estilo de Vida Subúrbio Baixo (500 N$)
-  * *Saldo restante:* 2.600 N$.
+*   **Street Samurai:** 12.000 N$
+*   **Decker:** 10.000 N$
+*   **Rigger:** 12.000 N$
+*   **Adept (Adepto Físico):** 6.000 N$
+*   **Mago / Xamã:** 6.000 N$
+*   **Face (Negociador):** 10.000 N$
+*   **Technomancer:** 5.000 N$
